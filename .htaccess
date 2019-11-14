@@ -1,0 +1,10 @@
+# Mise en place de la ré-écriture 
+RewriteEngine On
+
+# Adresse de base de réécriture 
+RewriteBase /blog
+
+# Règles
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule (.*) index.php?query=$1 [QSA,L]
