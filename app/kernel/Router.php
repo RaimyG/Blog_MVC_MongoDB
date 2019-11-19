@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Gère les r'outes' 
+ * Gère les routes' 
  */
 class Router
 {

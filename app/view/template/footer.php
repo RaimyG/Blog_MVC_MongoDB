@@ -28,6 +28,15 @@
 <!-- Custom scripts for this template -->
 <script src="/blog/js/clean-blog.min.js"></script>
 
+<!-- Summernote -->
+<script src="/blog/vendor/summernote/summernote-bs4.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+</script>
+
 </body>
 
 </html>

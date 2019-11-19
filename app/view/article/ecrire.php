@@ -20,8 +20,7 @@
             </div>
             <div class="control-group mt-3">
                 <div class="form-group floating-label-form-group controls">
-                    <label>Message</label>
-                    <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."><?php echo (isset($_POST['message']) && !isset($this->data['success'])) ? $_POST['message'] : '' ?></textarea>
+                    <textarea id="summernote" name="message"></textarea>
                     <p class="help-block text-danger"></p>
                 </div>
             </div>

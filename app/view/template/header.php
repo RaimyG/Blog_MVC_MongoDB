@@ -17,6 +17,10 @@
     <!-- Custom styles for this template -->
     <link href="/blog/css/clean-blog.css" rel="stylesheet">
 
+    <!-- CSS Summernote -->
+    <link href="/blog/vendor/summernote/summernote-bs4.css" rel="stylesheet" type="text/css">
+
+
     <title><?php echo $this->_route["params"]["title"] ?> - Mon ptit blog</title>
 </head>
 

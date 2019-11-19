@@ -7,6 +7,7 @@ La liste des fonctionnalités réalisées :
 * Rédaction d'un article (Titre, sous-titre, contenu)
 * Affichage de tous les articles écrits par les utilisateurs
 * Pour chaque article, on peut commenter et répondre à un commentaire, et ce, de manière récursive (sans fin)
+* Ajout d'un What You see Is What You Get (WYSIWYG) Permettant de donner du 'style' au message du blog
 
 
 Remarques :
